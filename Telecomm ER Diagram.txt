@@ -1,0 +1,184 @@
+*****What Is MEmory Management in OS*********
+-->The task of subdividing the memory among different processes is called memory management.
+    Memory management is a method in the operating system to manage operations between main memory and disk during process execution
+
+****************Contigous Memory Allocation****************
+-->Contiguous memory allocation refers to a memory management technique in which whenever there occurs a request by a user process for the memory,
+    one of the sections of the contiguous memory block would be given to that process,
+https://www.geeksforgeeks.org/memory-management-in-operating-system/
+
+
+
+
+import React from "react";
+
+function Registration() {
+  return (
+    <div>
+      <label>Name</label>
+      <br></br>
+      <input type="text">Name</input>
+      <br></br>
+      <label>Name</label>
+      <br></br>
+      <input type="password">Password</input>
+      <br></br>
+      <label>Name</label>
+      <br></br>
+      <input type="text"></input>
+      <br></br>
+      <label>Name</label>
+      <br></br>
+      <input type="text"></input>
+      <br></br>
+      <button type="submit">Register</button>
+      <br></br>
+    </div>
+  );
+}
+
+step 1=create line 1 to 14 from student server index.js
+databases
+
+step 2:install npm i mysql
+
+
+step 3: create table
+
+create table student(
+id int,name varchar(100),phone varchar(10),marks float,email varchar(100));
+
+step 4: Create connection with database in our case it is student_server
+
+for this we have to import createConnection from mysql module
+
+step 5: import one method from createConnection() from w3School article and placed below app.use(express.jso()); and it also return the connection object which we have to store in
+         one variable and using this variable we have to perform the query opeartion(variable name is con)
+
+step 6: Check the connection with database is establish or not using a method "con.connect" on line no 14 to 23
+
+step 7: fire a query nodemon index.js to check the database is connect or not
+
+
+
+step 9: before step 8 we have to write insert query inside app.post on line 23 to 27 only care has to take is that for String values we have to add single quote
+
+step 10: After this using connection object and query object("inserQry") we have to pass this insert query to database on line 28 to 38
+
+step 11: test the api using thunder client by writing the url http://localhost4200/students
+
+stp12: Now to create GET data from table we have to write select query inside app.get() line number36
+
+
+
+//Now we will create the Student management software
+
+step1 ) we need to call saveStudent method on form submission
+
+
+
+create table client(
+name varchar(100),phone varchar(10),email varchar(100));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export default Registration;
+
+ git init
+  407  Code .
+  408  Code .
+  409  git status
+  410  git add sum.java
+  411  git status
+  412  git commit -m "initial Commit"
+  413  git log
+  414  git status
+  415  git status
+  416  git add diff.java
+  417  git status
+  418  git commit -m "adding diff.java"
+  419  git log
+  420  git status
+  421  git add sum.java
+  422  git commit -m "Added msg in Sum.java"
+  423  git log
+  424  git checkout f13b8ff6fdd0c6a87c852622435cbc77b10c8b3d
+  425  git checkout master
+  426  git branch dev
+  427  git branch
+  428  git checkout dev
+  429  git checkout -b pranav/multiply
+  430  git status
+  431  git add Multiply.java
+  432  git commit -m "Multiply.java"
+  433  git checkout dev
+  434  git merge pranav/multiply
+  435  git log
+  436  git checkout master
+  437  git log
+  438  git merge dev
+  439  git log
+  440  touch .gitignore
+  441  git status
+  442  git remote -v
+  443  git remote add origin https://github.com/dpranav301/demo1.git
+  444  git remote -v
+  445  git push -u origin master
+  446  git push -u origin dev
+  447  git add diff.java
+  448  git commit -m "diff.java is completed"
+  449  git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
